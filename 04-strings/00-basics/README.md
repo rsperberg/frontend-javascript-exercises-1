@@ -8,7 +8,7 @@ We'll be working on five functions for this exercise.
 For example:
 
 ```javascript
-Ex.formLetter("James", "Richard", "Things are well.");
+formLetter("James", "Richard", "Things are well.");
 ```
 
 ...should return:
@@ -33,7 +33,7 @@ sliceItAndCombineIt("This is a Test", 0, 4, 1, 2) // returns "Thish".
     For example:
     
     ```javascript
-    findFirst("Roses are red", "re") // returns 7 (the position of the "re" in "are")
+    findFirstMatch("Roses are red", "re") // returns 7 (the position of the "re" in "are")
     ```
 
 - Complete the `findLastMatch` function. This function should:
@@ -42,7 +42,7 @@ sliceItAndCombineIt("This is a Test", 0, 4, 1, 2) // returns "Thish".
     For example:
     
     ```javascript
-    findFirst("Roses are red", "re") returns 10 (the position of the "re" in "red")
+    findLastMatch("Roses are red", "re") returns 10 (the position of the "re" in "red")
     ``` 
 
 - Complete the `substringBetweenMatches` function. This function should:
@@ -52,5 +52,5 @@ sliceItAndCombineIt("This is a Test", 0, 4, 1, 2) // returns "Thish".
     For example:
     
     ```javascript
-    findFirst("Roses are red, apples are really red.", "red") // returns ", apples are really "
+    substringBetweenMatches("Roses are red, apples are really red.", "red") // returns ", apples are really "
     ```
