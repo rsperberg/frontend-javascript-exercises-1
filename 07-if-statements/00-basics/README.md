@@ -28,9 +28,9 @@
         - 'item' should represent what the user wants to buy
         - 'money' should represent how many dollars a user has
         - return 'true' if a user can afford a given item according to the price chart below, false otherwise:
-            - 'MacBook Air' - $999
-            - 'MacBook Pro' - $1299
-            - 'Mac Pro' - $2499
+            - 'MacBook Air' - $899
+            - 'MacBook Pro' - $1099
+            - 'Mac Pro' - $2999
             - 'Apple Sticker' - $1
         - return 'false' if the 'item' is not in the above list apple products
 
