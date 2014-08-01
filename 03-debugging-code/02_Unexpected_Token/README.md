@@ -10,4 +10,4 @@ SyntaxError: Unexpected token )
 
 A missing `};` is one type of syntax error, but there are others where we might have a missing quotation or a missing closing parenthesis. Anytime we see a syntax error it's because we've either missed a keyword or had an extra keyword or character somewhere in our code.
 
-Add the missing curly brace and semicolon on a new line after the 'return' statement to pass the test.
+Add the missing curly brace and semicolon on a new line after the `return` statement to pass the test.
